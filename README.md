@@ -8,7 +8,7 @@ Straight port of http://www.fpdf.org/en/script/script74.php
 
 Example usage:
 
-```
+```python
 
 from alphafpdf import AlphaFPDF
 
