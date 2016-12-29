@@ -1,14 +1,7 @@
-# pyfpdf-transparent
+# -*- coding: utf-8 -*-
 
-Add transparency support to [PyFPDF](https://github.com/reingart/pyfpdf).
-
-You can set the alpha channel from 0 (fully transparent) to 1 (fully opaque). It applies to all elements (text, drawings, images).
-
-Straight port of http://www.fpdf.org/en/script/script74.php
-
-Example usage:
-
-```
+"""Example usage of AlphaPDF
+"""
 
 from alphafpdf import AlphaFPDF
 
@@ -41,6 +34,3 @@ pdf.text(46,68,'Lena');
 
 pdf.output(name = 'example.pdf', dest = 'F')
 
-```
-
-View the result [here](https://github.com/blueCat1301/pyfpdf-transparent/blob/master/example.pdf)
